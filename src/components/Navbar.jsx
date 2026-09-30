@@ -6,6 +6,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 import { business } from "../data/business";
+import logo from "/src/assets/royal-banner.jpeg"
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -35,7 +36,7 @@ export default function Navbar() {
             >
               <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-blue-400/30 bg-blue-950">
                 <img
-                  src="/src/assets/royal-banner.jpeg"
+                  src={logo}
                   alt="Royal Enterprises logo"
                   className="h-full w-full object-cover"
                 />

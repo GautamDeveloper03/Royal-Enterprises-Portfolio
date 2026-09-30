@@ -5,6 +5,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import { business } from "../data/business";
+import MainDesign from "../assets/design.png";
 export default function Hero() {
   return (
     <section
@@ -110,7 +111,7 @@ export default function Hero() {
               <div className="absolute inset-0 z-10 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
 
               <img
-                src="../src/assets/design.png"
+                src={MainDesign}
                 alt="Royal Enterprises false ceiling and interior work"
                 className="image-zoom aspect-[4/3] w-full object-cover sm:aspect-[16/11] lg:aspect-[4/3]"
               />

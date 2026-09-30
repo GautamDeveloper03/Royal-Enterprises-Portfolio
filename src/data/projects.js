@@ -7,14 +7,32 @@ export const projectCategories = [
   "Commercial Interiors",
   "Decorative Ceiling",
 ];
+import d1 from "../assets/d1.jpeg";
+import d2 from "../assets/d2.jpeg";
+import d3 from "../assets/d3.jpeg";
+import d4 from "../assets/d4.jpeg";
+import d5 from "../assets/d5.jpeg";
+import d6 from "../assets/d6.jpeg";
+import d7 from "../assets/d7.jpeg";
+import d8 from "../assets/d8.jpeg";
+import d9 from "../assets/d9.jpeg";
+import d10 from "../assets/d10.png";
+import d11 from "../assets/d11.jpeg";
+import d12 from "../assets/d12.jpeg";
+import d13 from "../assets/d13.jpeg";
+import d14 from "../assets/d14.jpeg";
+import d15 from "../assets/d15.jpeg";
+import d16 from "../assets/d16.jpeg";
+import d17 from "../assets/d17.jpeg";
+import d18 from "../assets/d18.jpeg";
+import d19 from "../assets/design1.jpeg";
 
 export const projects = [
   {
     id: 1,
     title: "Decorative Living Room Ceiling",
     category: "Decorative Ceiling",
-    image:
-      "../src/assets/d10.png",
+    image: d10,
   },
 
   {
@@ -22,7 +40,7 @@ export const projects = [
     title: "Designer Bedroom Ceiling",
     category: "Bedroom Ceiling",
     image:
-      "../src/assets/d1.jpeg",
+      d1,
   },
 
   {
@@ -30,7 +48,7 @@ export const projects = [
     title: "Premium Office Ceiling",
     category: "Office Ceiling",
     image:
-      "../src/assets/d2.jpeg",
+      d2,
   },
 
   {
@@ -38,7 +56,7 @@ export const projects = [
     title: "Contemporary Interior",
     category: "Commercial Interiors",
     image:
-      "../src/assets/d3.jpeg",
+      d3,
   },
 
   {
@@ -46,7 +64,7 @@ export const projects = [
     title: "Decorative Ceiling",
     category: "Decorative Ceiling",
     image:
-      "../src/assets/d4.jpeg",
+      d4,
   },
 
   {
@@ -54,7 +72,7 @@ export const projects = [
     title: "False Ceiling Project",
     category: "False Ceiling",
     image:
-      "../src/assets/d5.jpeg",
+      d5,
   },
 
   {
@@ -62,7 +80,7 @@ export const projects = [
     title: "Elegant Bedroom",
     category: "False Ceiling",
     image:
-      "../src/assets/d6.jpeg",
+      d6,
   },
 
   {
@@ -70,7 +88,7 @@ export const projects = [
     title: "Commercial Interior",
     category: "Commercial Interiors",
     image:
-      "../src/assets/d7.jpeg",
+      d7,
   },
 
   {
@@ -78,7 +96,7 @@ export const projects = [
     title: "Modern Ceiling Design",
     category: "Decorative Ceiling",
     image:
-      "../src/assets/d8.jpeg",
+      d8,
   },
 
   {
@@ -86,7 +104,7 @@ export const projects = [
     title: "Decorative Heart Ceiling",
     category: "Decorative Ceiling",
     image:
-      "../src/assets/d9.jpeg",
+      d9,
   },
 
   {
@@ -94,7 +112,7 @@ export const projects = [
     title: "Premium False Ceiling",
     category: "False Ceiling",
     image:
-      "../src/assets/d11.jpeg",
+      d11,
   },
 
   {
@@ -102,56 +120,56 @@ export const projects = [
     title: "Luxury Interior",
     category: "Decorative Ceiling",
     image:
-      "../src/assets/d12.jpeg",
+      d12,
   },
   {
     id: 13,
     title: "Grid Ceiling",
     category: "Office Ceiling",
     image:
-      "../src/assets/d13.jpeg",
+      d13,
   },
   {
     id: 14,
     title: "Design With Simple",
     category: "Decorative Ceiling",
     image:
-      "../src/assets/d14.jpeg",
+      d14,
   },
   {
     id: 15,
     title: "Premium Grid Ceiling",
     category: "Office Ceiling",
     image:
-      "../src/assets/d15.jpeg",
+      d15,
   },
   {
     id: 16,
     title: "Luxury Interior",
     category: "Living Room Ceiling",
     image:
-      "../src/assets/d16.jpeg",
+      d16,
   },
   {
     id: 17,
     title: "Fruit Ceiling",
     category: "Office Ceiling",
     image:
-      "../src/assets/d17.jpeg",
+      d17,
   },
   {
     id: 18,
     title: "Decorative Pooja Design",
     category: "Living Room Ceiling",
     image:
-      "../src/assets/d18.jpeg",
+      d18,
   },
   {
     id: 19,
     title: "Luxury Interior",
     category: "Office Ceiling",
     image:
-      "../src/assets/design1.jpeg",
+      d19,
   },
   
 ];

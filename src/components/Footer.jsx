@@ -5,7 +5,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 import { business } from "../data/business";
-
+import logo from "/src/assets/royal-banner.jpeg"
 const links = [
   ["Home", "#home"],
   ["About", "#about"],
@@ -28,7 +28,7 @@ export default function Footer() {
             >
               <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-lg bg-blue-950">
                 <img
-                  src="/src/assets/royal-banner.jpeg"
+                  src={logo}
                   alt="Royal Enterprises logo"
                   className="h-full w-full object-cover"
                 />

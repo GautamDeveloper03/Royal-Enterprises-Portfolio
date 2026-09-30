@@ -6,6 +6,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { business } from "../data/business";
+import d10 from "../assets/d10.png"
 const highlights = [
   {
     icon: BadgeCheck,
@@ -38,7 +39,7 @@ export default function About() {
           <div className="relative">
             <div className="overflow-hidden rounded-2xl bg-slate-100">
               <img
-                src="../src/assets/d10.png"
+                src={d10}
                 alt="Modern interior ceiling design"
                 loading="lazy"
                 className="image-zoom aspect-[4/3] w-full object-cover"
